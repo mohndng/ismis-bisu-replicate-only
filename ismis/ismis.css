@@ -1,0 +1,140 @@
+      body {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Nunito Sans', sans-serif;
+      }
+      .ismis_main {
+        display: flex;
+        padding: 0px 10px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .ismis_logo {
+        width: 3.5em;
+        height: 3.5em;
+        border: 4px solid #2d4b8e;
+        border-radius: 100%;
+      }
+      .ismis_title {
+        display: flex;
+        padding-left: 10px;
+        flex-direction: column;
+      }
+      .ismis_title h2, p {
+        margin: 0;
+      }
+      .ismis_title h2 {
+        font-weight: 900;
+        font-size: 18px;
+        color: #2d4b8e;
+      }
+      .ismis_title p {
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .ismis_form {
+        background-color: transparent;
+      }
+      .box {
+        display: flex;
+        flex-direction: column;
+      }
+      label {
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      #user,
+      #pass {
+        all: unset;
+        background-color: text-transform;
+        border: 1px solid #2d4b8e;
+        padding: 10px 5px;
+        color: #2d4b8e;
+        font-size: 15px;
+      }
+      #user:hover,
+      #pass:hover {
+        cursor: pointer;
+        transition: .5s;
+        background-color: #2d4b8e4f;
+        box-shadow: 4px 4px #2d4b8e;
+      }
+      #submit {
+        all: unset;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: 700;
+        padding: 10px 8px;
+        border-radius: 3px;
+        letter-spacing: 1px;
+        color: white;
+        background-color: #2d4b8e;
+      }
+      #submit:hover {
+        background-color: white;
+        color: #2d4b8e;
+        box-shadow: 4px 4px #2d4b8e;
+        border: 1px solid #2d4b8e;
+      }
+      h4 {
+        padding-top: 5px;
+        width: 160px;
+        font-style: italic;
+        font-size: 12px;
+        padding-bottom: 5px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #2d4b8e;
+      }
+      h4:hover {
+        cursor: pointer;
+        transition: .5s;
+        border-bottom: 1px solid #2d4b8e;
+      }
+      .end {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 10px 30px;
+      }
+      .bisu {
+        margin-bottom: 0;
+      }
+      .bisu {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px
+        align-items: center;
+        justify-content: center;
+      }
+      .bisu img {
+        width: 40px;
+        height: 40px;
+      }
+      .bst h2, p {
+        font-size: 12px;
+        margin: 0;
+      }
+      .bst h2 {
+        font-weight: 800;
+      }
+      .bst p {
+        font-size: 9px;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+      .bst {
+        margin-left: 5px;
+        padding: 5px 5px;
+        display: flex;
+        flex-direction: column;
+
+      }
